@@ -123,6 +123,8 @@ puts color_lookup[mix_colors([0,125,0],[0,0,255])]
 
 **think**: Why did we choose to use arrays where we used arrays and hashes where we used hashes? If you would have made a different data type choice, what and why would you have done differently?
 
+We used arrays for the color intensities because the order of the color intensities with RGB is significant. Hashes are good for the lookup function because each key is unique, and if we're looking something up that's what we want.
+
 ## Array of Hashes
 
 Ok, so now let's start meshing together arrays and hashes and see what happens.
